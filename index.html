@@ -5,6 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300;700&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Tribute Page</title>
 	</head>
 	<body>
@@ -16,9 +22,11 @@
 
 			<div id="img-div">
 				<img src="Asset/Nikola tesla.jpeg" alt="Nikola Tesla" id="image" />
-				<p id="img-caption">
-					Portrait Of Nikola Tesla by Napoleon Sarony, 1890s
-				</p>
+				<div id="img-caption">
+					<p id="caption-text">
+						Portrait Of Nikola Tesla by Napoleon Sarony, 1890s
+					</p>
+				</div>
 			</div>
 			<section id="tribute-info">
 				<ul id="timeline">
@@ -134,7 +142,7 @@
 					</li>
 				</ul>
 
-				<p>
+				<p id="link-text">
 					Learn more about the iconic nikola tesla
 					<a
 						href="https://en.wikipedia.org/wiki/Nikola_Tesla"
